@@ -1,6 +1,5 @@
 import os
-import libsql
-
+import libsql_experimental as libsql
 # Читаем из переменных окружения Render
 TURSO_URL = os.environ.get("TURSO_URL")
 TURSO_TOKEN = os.environ.get("TURSO_TOKEN")
